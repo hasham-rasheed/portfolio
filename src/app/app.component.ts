@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {ChangeDetectorRef, Component, ElementRef, ViewChild} from '@angular/core';
+import {ProjectsComponent} from './components/projects/projects.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Portfolio';
+  @ViewChild('projectsComponent')
+  projects: ProjectsComponent;
+  title = 'Hasham Rasheed - Full Stack Engineer';
+
+  navigateToProject() {
+    this.projects.navigateToProjects();
+  }
 }

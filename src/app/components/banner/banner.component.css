@@ -1,0 +1,56 @@
+.bannerContainer {
+  text-align: center;
+  overflow-y: auto;
+}
+.video {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  object-fit: cover;
+}
+
+.name{
+  color: white;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  font-size: 100px;
+  font-family: name, sans-serif;
+}
+
+.title {
+  color: white;
+  position: absolute;
+  left: 38%;
+  top: 30%;
+  font-size: 45px;
+  font-family: title, sans-serif;
+}
+
+.projectsButton {
+  color: white;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  font-size: 25px;
+  font-family: title, sans-serif;
+}
+
+.summary {
+  color: white;
+  position: absolute;
+  top: 38%;
+  left: 26%;
+  width: 50%;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: "name";
+  src: url("../../../assets/fonts/monton.ttf");
+}
+@font-face {
+  font-family: "title";
+  src: url("../../../assets/fonts/nevis.ttf");
+}
