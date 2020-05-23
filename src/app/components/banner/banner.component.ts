@@ -9,7 +9,7 @@ import {logger} from 'codelyzer/util/logger';
 export class BannerComponent implements OnInit {
   constructor() { }
   @Output() scrollEvent: EventEmitter<boolean> = new EventEmitter();
-  videoSource = 'assets/videos/banner.mp4';
+  videoSource = '../../../assets/videos/banner.mp4';
   name = 'Hasham Rasheed';
   jobTitle = 'Full Stack Engineer';
   ngOnInit(): void {
