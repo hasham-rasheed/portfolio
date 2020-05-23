@@ -1,9 +1,11 @@
 
 .angular-project-card{
+  cursor: pointer;
   max-width: 50%;
   position: absolute;
   top: 60%;
   left: 25%;
+  word-wrap: break-word;
 }
 
 .angular-project-card-header-image {
@@ -11,9 +13,8 @@
   background-size: cover;
 }
 
-
-
 .java-project-card{
+  cursor: pointer;
   max-width: 50%;
   position: absolute;
   top: 60%;
@@ -27,6 +28,7 @@
 
 
 .react-project-card{
+  cursor: pointer;
   max-width: 50%;
   position: absolute;
   top: 60%;

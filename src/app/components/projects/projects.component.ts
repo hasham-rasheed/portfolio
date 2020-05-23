@@ -1,4 +1,5 @@
-import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {Component, ElementRef, Inject, OnInit, ViewChild} from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-projects',
@@ -7,12 +8,16 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
   @ViewChild('projectsDiv') projectsDiv: ElementRef;
-  constructor() { }
+  constructor(@Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit(): void {
   }
 
   navigateToProjects() {
     this.projectsDiv.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  redirectToJava() {
+      this.document.location.href = 'https://github.com/hasham-rasheed/co2';
   }
 }
