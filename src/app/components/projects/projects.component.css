@@ -1,42 +1,136 @@
+/* Mobile Only */
+@media only screen and (max-width: 767px) {
+  .angular-project-card {
+    cursor: pointer;
+    max-width: 40%;
+    position: absolute;
+    top: 40%;
+    max-height: 8%;
+    left: 25%;
+  }
 
-.angular-project-card{
-  cursor: pointer;
-  max-width: 50%;
-  position: absolute;
-  top: 60%;
-  left: 25%;
-  word-wrap: break-word;
+  .angular-project-card-header-image {
+    background-image: url('../../../assets/images/angular.png');
+    background-size: cover;
+  }
+
+  .java-project-card {
+    cursor: pointer;
+    max-width: 40%;
+    max-height: 8%;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+  }
+
+  .java-project-card-header-image {
+    background-image: url('../../../assets/images/java.png');
+    background-size: cover;
+  }
+
+
+  .react-project-card {
+    cursor: pointer;
+    width: 40%;
+    max-height: 7%;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+  }
+
+  .react-project-card-header-image {
+    background-image: url('../../../assets/images/react.png');
+    background-size: cover;
+  }
+  .mat-card-header .mat-card-title {
+    font-size: 10px;
+  }
 }
 
-.angular-project-card-header-image {
-  background-image: url('../../../assets/images/angular.png');
-  background-size: cover;
+/* Tab Only */
+@media only screen and (min-width: 768px) {
+  .angular-project-card {
+    cursor: pointer;
+    max-width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 33%;
+  }
+
+  .angular-project-card-header-image {
+    background-image: url('../../../assets/images/angular.png');
+    background-size: cover;
+  }
+
+  .java-project-card {
+    cursor: pointer;
+    max-width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+  }
+
+  .java-project-card-header-image {
+    background-image: url('../../../assets/images/java.png');
+    background-size: cover;
+  }
+
+
+  .react-project-card {
+    cursor: pointer;
+    max-width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+  }
+
+  .react-project-card-header-image {
+    background-image: url('../../../assets/images/react.png');
+    background-size: cover;
+  }
 }
 
-.java-project-card{
-  cursor: pointer;
-  max-width: 50%;
-  position: absolute;
-  top: 60%;
-  left: 42%;
-}
+/* Desktop Only */
+@media only screen and (min-width: 1025px) {
+  .angular-project-card {
+    cursor: pointer;
+    max-width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    word-wrap: break-word;
+  }
 
-.java-project-card-header-image {
-  background-image: url('../../../assets/images/java.png');
-  background-size: cover;
-}
+  .angular-project-card-header-image {
+    background-image: url('../../../assets/images/angular.png');
+    background-size: cover;
+  }
+
+  .java-project-card {
+    cursor: pointer;
+    max-width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 42%;
+  }
+
+  .java-project-card-header-image {
+    background-image: url('../../../assets/images/java.png');
+    background-size: cover;
+  }
 
 
-.react-project-card{
-  cursor: pointer;
-  max-width: 50%;
-  position: absolute;
-  top: 60%;
-  left: 60%;
-}
+  .react-project-card {
+    cursor: pointer;
+    max-width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+  }
 
-.react-project-card-header-image {
-  background-image: url('../../../assets/images/react.png');
-  background-size: cover;
+  .react-project-card-header-image {
+    background-image: url('../../../assets/images/react.png');
+    background-size: cover;
+  }
 }
 

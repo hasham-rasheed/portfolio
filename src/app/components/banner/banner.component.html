@@ -1,5 +1,5 @@
 <div id="bannerContainer" class="primaryColorBG">
-  <video id="banner" autoplay="" loop="" class="video">
+  <video id="banner" onloadedmetadata="this.muted=true" autoplay loop  preload="auto" class="video">
     <source type="video/mp4" src="{{videoSource}}">
   </video>
   <h1 class="name" id="name">{{name}}</h1>

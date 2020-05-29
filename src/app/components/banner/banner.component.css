@@ -1,50 +1,155 @@
-.bannerContainer {
-  text-align: center;
-  overflow-y: auto;
-}
-.video {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  object-fit: cover;
+/* MOBILE ONLY CSS */
+@media only screen and (max-width: 767px) {
+  .bannerContainer {
+    text-align: center;
+    overflow-y: auto;
+  }
+  .video {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    object-fit: cover;
+  }
+
+  .name{
+    color: white;
+    position: absolute;
+    left: 11%;
+    top: 5%;
+    font-size: 30px;
+    font-family: name, sans-serif;
+  }
+
+  .title {
+    color: white;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    font-size: 25px;
+    font-family: title, sans-serif;
+  }
+
+  .projectsButton {
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    font-size: 25px;
+    font-family: title, sans-serif;
+  }
+
+  .summary {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left:0%;
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+  }
 }
 
-.name{
-  color: white;
-  position: absolute;
-  left: 20%;
-  top: 20%;
-  font-size: 100px;
-  font-family: name, sans-serif;
+/* Tab Only */
+@media only screen and (min-width: 768px) {
+  .bannerContainer {
+    text-align: center;
+    overflow-y: auto;
+  }
+
+  .video {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    object-fit: cover;
+  }
+
+  .name {
+    color: white;
+    position: absolute;
+    left: 9%;
+    top: 5%;
+    font-size: 60px;
+    font-family: name, sans-serif;
+  }
+
+  .title {
+    color: white;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    font-size: 45px;
+    font-family: title, sans-serif;
+  }
+
+  .projectsButton {
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    font-size: 25px;
+    font-family: title, sans-serif;
+  }
+
+  .summary {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    width: 100%;
+    font-style: italic;
+  }
 }
 
-.title {
-  color: white;
-  position: absolute;
-  left: 38%;
-  top: 30%;
-  font-size: 45px;
-  font-family: title, sans-serif;
-}
+/* Desktop Only */
+@media only screen and (min-width: 1025px) {
+  .bannerContainer {
+    text-align: center;
+    overflow-y: auto;
+  }
 
-.projectsButton {
-  color: white;
-  position: absolute;
-  left: 45%;
-  top: 45%;
-  font-size: 25px;
-  font-family: title, sans-serif;
-}
+  .video {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    object-fit: cover;
+  }
 
-.summary {
-  color: white;
-  position: absolute;
-  top: 38%;
-  left: 26%;
-  width: 50%;
-  font-style: italic;
-}
+  .name {
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    font-size: 100px;
+    font-family: name, sans-serif;
+  }
 
+  .title {
+    color: white;
+    position: absolute;
+    left: 38%;
+    top: 30%;
+    font-size: 45px;
+    font-family: title, sans-serif;
+  }
+
+  .projectsButton {
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    font-size: 25px;
+    font-family: title, sans-serif;
+  }
+
+  .summary {
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 26%;
+    width: 50%;
+    font-style: italic;
+  }
+}
 
 @font-face {
   font-family: "name";
